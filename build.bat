@@ -2,7 +2,7 @@
 echo off 
 echo Building Ascal Interpreter with g++ -o
 echo g++ -O2 -std=c++17 AscalMain.cpp  AscalParameters.cpp Object.cpp queue.hpp setting.hpp stack.hpp unsortedlist.hpp
-g++ -O2  AscalMain.cpp  AscalParameters.cpp Object.cpp queue.hpp setting.hpp stack.hpp unsortedlist.hpp ObjectKey.cpp
+g++ -O2  AscalMain.cpp  AscalParameters.cpp Object.cpp queue.hpp setting.hpp stack.hpp unsortedlist.hpp ObjectKey.cpp -o ascal.exe
 
 echo Starting Ascal interpreter
 echo Running, awaiting input, try typing o;fibr(3)
