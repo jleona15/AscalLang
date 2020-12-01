@@ -22,6 +22,8 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+#include <unistd.h>
+
 
 #include "AscalFrame.hpp"
 #include "Object.hpp"
